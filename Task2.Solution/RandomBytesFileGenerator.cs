@@ -8,7 +8,8 @@ namespace Task2.Solution
 {
     public class RandomBytesFileGenerator : FileGenerator
     {
-        public RandomBytesFileGenerator(string WorkingDirectory, string FileExtension) : base(WorkingDirectory, FileExtension) { }
+        public override string WorkingDirectory => "Files with random bytes";
+        public override string FileExtension => ".bytes";
 
         protected override byte[] GenerateFileContent(int contentLength)
         {

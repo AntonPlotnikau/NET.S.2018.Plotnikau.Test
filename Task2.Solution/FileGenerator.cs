@@ -9,16 +9,6 @@ namespace Task2.Solution
 {
     public abstract class FileGenerator
     {
-        public string WorkingDirectory { get; private set; }
-
-        public string FileExtension { get; private set; }
-
-        public FileGenerator(string WorkingDirectory, string FileExtension)
-        {
-            this.WorkingDirectory = WorkingDirectory ?? throw new ArgumentNullException(nameof(WorkingDirectory));
-            this.FileExtension = FileExtension ?? throw new ArgumentNullException(nameof(FileExtension));
-        }
-
         public void GenerateFiles(int filesCount, int contentLength)
         {
             for (var i = 0; i < filesCount; ++i)
@@ -30,6 +20,10 @@ namespace Task2.Solution
                 this.WriteBytesToFile(generatedFileName, generatedFileContent);
             }
         }
+
+        public abstract string WorkingDirectory { get; }
+
+        public abstract string FileExtension { get; }
 
         protected abstract byte[] GenerateFileContent(int contentLength);
 
