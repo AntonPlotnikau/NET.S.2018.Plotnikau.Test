@@ -10,7 +10,7 @@ namespace Task1.Console
     {
         public static void Main(string[] args)
         {
-            PasswordCheckerService checker = new PasswordCheckerService(new SqlRepository(), new DefaultValidator());
+            PasswordCheckerService checker = new PasswordCheckerService(new SqlRepository(), new DefaultValidator1(), new DefaultValidator2());
             System.Console.WriteLine(checker.VerifyPassword(string.Empty).Item2);
             System.Console.WriteLine(checker.VerifyPassword("123456").Item2);
             System.Console.WriteLine(checker.VerifyPassword("123afffffffffffffff").Item2);

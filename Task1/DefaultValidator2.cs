@@ -6,16 +6,10 @@ using System.Threading.Tasks;
 
 namespace Task1
 {
-    public class DefaultValidator : IValidator
+    public class DefaultValidator2 : IValidator
     {
         public Tuple<bool, string> IsValid(string password)
         {
-            if (password == null)
-                throw new ArgumentException($"{password} is null arg");
-
-            if (password == string.Empty)
-                return Tuple.Create(false, $"{password} is empty ");
-
             // check if length more than 7 chars 
             if (password.Length <= 7)
                 return Tuple.Create(false, $"{password} length too short");
@@ -32,7 +26,7 @@ namespace Task1
             if (!password.Any(char.IsNumber))
                 return Tuple.Create(false, $"{password} hasn't digits");
 
-            return Tuple.Create(true, "Password is Ok. User was created");
+            return Tuple.Create(true, "Ok");
         }
     }
 }

@@ -7,3 +7,12 @@ E:\NET.W.2017.Plotnikau.Test\Task1.Console\bin\Debug\Task1.dll
 E:\NET.W.2017.Plotnikau.Test\Task1.Console\bin\Debug\Task1.pdb
 E:\NET.W.2017.Plotnikau.Test\Task1.Console\obj\Debug\Task1.Console.exe
 E:\NET.W.2017.Plotnikau.Test\Task1.Console\obj\Debug\Task1.Console.pdb
+E:\Task2\NET.S.2018.Plotnikau.Test\Task1.Console\bin\Debug\Task1.Console.exe.config
+E:\Task2\NET.S.2018.Plotnikau.Test\Task1.Console\bin\Debug\Task1.Console.exe
+E:\Task2\NET.S.2018.Plotnikau.Test\Task1.Console\bin\Debug\Task1.Console.pdb
+E:\Task2\NET.S.2018.Plotnikau.Test\Task1.Console\bin\Debug\Task1.dll
+E:\Task2\NET.S.2018.Plotnikau.Test\Task1.Console\bin\Debug\Task1.pdb
+E:\Task2\NET.S.2018.Plotnikau.Test\Task1.Console\obj\Debug\Task1.Console.csprojResolveAssemblyReference.cache
+E:\Task2\NET.S.2018.Plotnikau.Test\Task1.Console\obj\Debug\Task1.Console.csproj.CoreCompileInputs.cache
+E:\Task2\NET.S.2018.Plotnikau.Test\Task1.Console\obj\Debug\Task1.Console.exe
+E:\Task2\NET.S.2018.Plotnikau.Test\Task1.Console\obj\Debug\Task1.Console.pdb

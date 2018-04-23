@@ -40,7 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DefaultValidator.cs" />
+    <Compile Include="DefaultValidator1.cs" />
+    <Compile Include="DefaultValidator2.cs" />
     <Compile Include="IRepository.cs" />
     <Compile Include="IValidator.cs" />
     <Compile Include="PasswordCheckerService.cs" />

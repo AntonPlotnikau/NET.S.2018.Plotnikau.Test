@@ -6,9 +6,9 @@ namespace Task1
     public class PasswordCheckerService
     {
         private IRepository repository;
-        private IValidator validator;
+        private IValidator[]  validator;
 
-        public PasswordCheckerService(IRepository repository, IValidator validator)
+        public PasswordCheckerService(IRepository repository, params IValidator[] validator)
         {
             this.repository = repository ?? throw new ArgumentNullException(nameof(repository));
             this.validator = validator ?? throw new ArgumentNullException(nameof(validator));
@@ -19,14 +19,16 @@ namespace Task1
             if (password == null)
                 throw new ArgumentException($"{password} is null arg");
 
-            Tuple<bool, string> validateResult = validator.IsValid(password);
-
-            if (validateResult.Item1)
+            foreach(var item in validator)
             {
-                repository.Create(password);
+                if(!item.IsValid(password).Item1)
+                {
+                    return item.IsValid(password);
+                }
             }
 
-            return validateResult;
+            repository.Create(password);
+            return Tuple.Create(true, "Password is Ok. User was created");
         }
     }
 }
