@@ -18,3 +18,13 @@ C:\Users\MIB\Desktop\23.11.2017\Task4.Tests\obj\Debug\Task4.Tests.csprojResolveA
 C:\Users\MIB\Desktop\23.11.2017\Task4.Tests\obj\Debug\Task4.Tests.csproj.CoreCompileInputs.cache
 C:\Users\MIB\Desktop\23.11.2017\Task4.Tests\obj\Debug\Task4.Tests.dll
 C:\Users\MIB\Desktop\23.11.2017\Task4.Tests\obj\Debug\Task4.Tests.pdb
+E:\Task2\NET.S.2018.Plotnikau.Test\Task4.Tests\bin\Debug\Task4.Tests.dll
+E:\Task2\NET.S.2018.Plotnikau.Test\Task4.Tests\bin\Debug\Task4.Tests.pdb
+E:\Task2\NET.S.2018.Plotnikau.Test\Task4.Tests\bin\Debug\nunit.framework.dll
+E:\Task2\NET.S.2018.Plotnikau.Test\Task4.Tests\bin\Debug\Task4.Solution.dll
+E:\Task2\NET.S.2018.Plotnikau.Test\Task4.Tests\bin\Debug\Task4.Solution.pdb
+E:\Task2\NET.S.2018.Plotnikau.Test\Task4.Tests\bin\Debug\nunit.framework.xml
+E:\Task2\NET.S.2018.Plotnikau.Test\Task4.Tests\obj\Debug\Task4.Tests.csprojResolveAssemblyReference.cache
+E:\Task2\NET.S.2018.Plotnikau.Test\Task4.Tests\obj\Debug\Task4.Tests.csproj.CoreCompileInputs.cache
+E:\Task2\NET.S.2018.Plotnikau.Test\Task4.Tests\obj\Debug\Task4.Tests.dll
+E:\Task2\NET.S.2018.Plotnikau.Test\Task4.Tests\obj\Debug\Task4.Tests.pdb

@@ -10,3 +10,9 @@ C:\Users\MIB\Desktop\23.11.2017\Task4.Solution\obj\Debug\Task4.Solution.csprojRe
 C:\Users\MIB\Desktop\23.11.2017\Task4.Solution\obj\Debug\Task4.Solution.csproj.CoreCompileInputs.cache
 C:\Users\MIB\Desktop\23.11.2017\Task4.Solution\obj\Debug\Task4.Solution.dll
 C:\Users\MIB\Desktop\23.11.2017\Task4.Solution\obj\Debug\Task4.Solution.pdb
+E:\Task2\NET.S.2018.Plotnikau.Test\Task4.Solution\bin\Debug\Task4.Solution.dll
+E:\Task2\NET.S.2018.Plotnikau.Test\Task4.Solution\bin\Debug\Task4.Solution.pdb
+E:\Task2\NET.S.2018.Plotnikau.Test\Task4.Solution\obj\Debug\Task4.Solution.csprojResolveAssemblyReference.cache
+E:\Task2\NET.S.2018.Plotnikau.Test\Task4.Solution\obj\Debug\Task4.Solution.csproj.CoreCompileInputs.cache
+E:\Task2\NET.S.2018.Plotnikau.Test\Task4.Solution\obj\Debug\Task4.Solution.dll
+E:\Task2\NET.S.2018.Plotnikau.Test\Task4.Solution\obj\Debug\Task4.Solution.pdb

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using NUnit.Framework;
-using Task4;
+using Task4.Solution;
 
 namespace Task4.Tests
 {
