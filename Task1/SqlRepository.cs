@@ -1,7 +1,9 @@
-﻿namespace Task1
+﻿using System;
+
+namespace Task1
 {
     public class SqlRepository : IRepository
     {
-        public void Create(string password) { }
+        public void Create(string password) { throw new NotImplementedException(); }
     }
 }
